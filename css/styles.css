@@ -21,10 +21,10 @@ h1{
     font-weight: Bold;
 }
 
-/*#headerTitle{
-    padding: 15% 2%
-}*/
-
+p{
+    color: #8f8f8f;
+    font-weight: normal;
+}
 /*   Navigation Bar */
 .navbar{
     padding: 0 0 5rem;
@@ -62,3 +62,29 @@ h1{
 
 }
 
+/*  Feature */
+#features{
+    padding: 7% 5%;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+
+#features h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    /*font-size: 3rem;
+    padding-bottom: 5%;*/
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
