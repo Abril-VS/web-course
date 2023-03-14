@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5, h6{
 
 .container-fluid{
     padding: 3% 15%;
-
 }
 
 /* Headings */
@@ -24,11 +23,22 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
-
 }
+
 .section-headings{
     font-size: 2.8rem;
     line-height: 1.5;
+}
+
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: #fff; 
 }
 
 /*   Navigation Bar */
@@ -52,13 +62,10 @@ h1, h2, h3, h4, h5, h6{
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-   
 }
 
 /*Title section */
 #title{
-    background-color: #ff4c68;
-    color: white; 
     text-align: left;
 }
 
@@ -66,18 +73,15 @@ h1, h2, h3, h4, h5, h6{
     margin: 5% 3% 5% 0;
 }
 
-
 .image-title{
     width: 18%;
     transform: rotate(25deg);
-    position: absolute; 
-   
+    position: absolute;   
 }
 
 /*  Feature */
 #features{
     padding: 7% 5%;
-    background-color: #fff;
     position: relative;
    
 }
@@ -97,11 +101,8 @@ h1, h2, h3, h4, h5, h6{
 
 /* Testimonial  */
 #testimonials{
-    
-    color:white;
     background-color: #ef8172;
-   
-    
+
 }
 
 .testimonial-text{
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .pricing-column{
-    padding: 3% 2%;
+    padding: 3% 5%;
 }
 
 /*  CTA section*/
