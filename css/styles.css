@@ -1,22 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-}
-
-h1{
-    
-    font-size : 3.5rem;
-    line-height: 1.5;
-
-}
-
-h2{
-    font-size: 2.8rem;
-
-    line-height: 1.5;
-}
-
-h3{
-    font-size: 2.5rem;
+    text-align: center;
 }
 
 p{
@@ -24,12 +8,28 @@ p{
     font-weight: normal;
 }
 
-/* Headings*/
 h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
+.container-fluid{
+    padding: 3% 15%;
+
+}
+
+/* Headings */
+.big-headings{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+.section-headings{
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
 
 /*   Navigation Bar */
 .navbar{
@@ -59,20 +59,13 @@ h1, h2, h3, h4, h5, h6{
 #title{
     background-color: #ff4c68;
     color: white; 
-
+    text-align: left;
 }
 
-.container-fluid{
-    padding:3% 15%;
-
-}
-
-/* Download Buttons*/
 .download-btn{
     margin: 5% 3% 5% 0;
 }
 
-/*  Title Image*/
 
 .image-title{
     width: 18%;
@@ -89,15 +82,13 @@ h1, h2, h3, h4, h5, h6{
    
 }
 
-.feature-box{
-    text-align: center;
+.feature-title{
+    font-size: 2.5rem;
 }
 
 .icon{
     color: #ef8172;
     margin-bottom: 1rem;
-    /*font-size: 3rem;
-    padding-bottom: 5%;*/
 }
 
 .icon:hover{
@@ -109,13 +100,17 @@ h1, h2, h3, h4, h5, h6{
     
     color:white;
     background-color: #ef8172;
-    text-align: center;
+   
     
+}
+
+.testimonial-text{
+    font-size: 2.8rem;
+    line-height: 1.5;
 }
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding: 3% 5%;
 
 }
@@ -131,16 +126,16 @@ h1, h2, h3, h4, h5, h6{
     margin: 20px 20px 50px;
 }
 
-.carousel-item{
-    padding: 3% 15%;
-}
-
 /*Pricing cards*/
 #pricing{
     background-color: #fff;
     padding: 100px;
-    text-align: center;
     inline-size: 1;
+}
+
+.price-text{
+    font-size: 2.8rem;
+    line-height: 1.5;
 }
 
 .pricing-column{
@@ -152,15 +147,11 @@ h1, h2, h3, h4, h5, h6{
     background-color: #ff4c68;
     padding: 7% 5%;
     color: white;
-    text-align: center;
 }
-
-
 
 /* Footer */
 #footer{
     background-color: #fff;
-    text-align: center;
 }
 
 .icon-footer{
@@ -178,7 +169,5 @@ h1, h2, h3, h4, h5, h6{
         position: static;
         width:55%;
         transform: rotate(0deg);
-    }
-
-    
+    } 
 }
